@@ -14,7 +14,7 @@ const navLinkClassName = ({ isActive }) =>
   }`;
 
 const NavBar = () => {
-  // Use this direct link - it is verified to work in browsers
+  
   const logoUrl = "https://alchetron.com/cdn/ryzza-mae-dizon-f771b678-d254-4912-be43-78d67392749-resize-750.png";
 
   return (

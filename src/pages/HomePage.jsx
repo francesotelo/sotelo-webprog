@@ -9,7 +9,7 @@ const HomePage = () => {
             <div>
               <p className="mb-4 text-xs font-bold uppercase tracking-[0.3em] text-zinc-500">Official Portfolio</p>
               <h1 className="text-5xl font-extrabold tracking-tight sm:text-6xl">
-                {/* Changed text-zinc-500 to text-zinc-900 for readability */}
+                {}
                 <span className="text-zinc-900">The evolution of</span>{" "}
                 <span className="text-purple-600">Ryzza Mae Dizon.</span>
               </h1>
@@ -37,7 +37,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* KPI Section */}
+      {}
       <section className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
         <h2 className="text-sm font-semibold uppercase tracking-[0.3em] text-zinc-500 mb-12">By The Numbers</h2>
         <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">

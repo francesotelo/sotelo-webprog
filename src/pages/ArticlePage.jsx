@@ -16,7 +16,6 @@ const articles = [
   {
     title: 'The Art of the Interview',
     tag: 'Media Study',
-    // Updated image link below
     img: 'https://i0.wp.com/www.pinoyparazzi.com/wp-content/uploads/2015/09/Ryzza-Mae-Dizon2.jpg',
     desc: 'Looking back at the most iconic moments from "The Ryzza Mae Show" and its unique format.'
   }
