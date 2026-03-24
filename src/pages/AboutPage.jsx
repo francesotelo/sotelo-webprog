@@ -5,11 +5,16 @@ const AboutPage = () => {
     <div className="flex w-full flex-col gap-12 pb-20">
       <section className="mx-auto max-w-7xl px-6 py-20 lg:grid lg:grid-cols-2 lg:gap-x-12 lg:items-center">
         <div>
-          <h2 className="text-sm font-bold uppercase tracking-widest text-zinc-500">The Story</h2>
-          <h1 className="mt-4 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl">
-            Child wonder to <span className="text-purple-600">versatile host.</span>
+          <h2 className="text-sm font-bold uppercase tracking-widest" style={{ color: '#6b6375' }}>
+            The Story
+          </h2>
+          <h1 
+            className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl" 
+            style={{ color: '#08060d' }}
+          >
+            Child wonder to <span style={{ color: '#aa3bff' }}>versatile host.</span>
           </h1>
-          <p className="mt-6 text-lg leading-8 text-zinc-700">
+          <p className="mt-6 text-lg leading-8" style={{ color: '#6b6375' }}>
             Ryzza Mae Dizon (born June 12, 2005) broke through in 2012 after winning the popular 
             Eat Bulaga! segment Little Miss Philippines. Her quick wit and ability to interact 
             with seasoned veterans paved the way for "The Ryzza Mae Show."
