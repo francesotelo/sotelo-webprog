@@ -14,7 +14,6 @@ const navLinkClassName = ({ isActive }) =>
   }`;
 
 const NavBar = () => {
-  
   const logoUrl = "https://alchetron.com/cdn/ryzza-mae-dizon-f771b678-d254-4912-be43-78d67392749-resize-750.png";
 
   return (
@@ -32,18 +31,28 @@ const NavBar = () => {
           <span className="text-xl font-bold tracking-tight text-zinc-900 uppercase">RMD Studio</span>
         </NavLink>
 
-        <nav className="hidden items-center gap-2 md:flex">
-          {links.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              end={link.to === '/'}
-              className={navLinkClassName}
-            >
-              {link.label}
-            </NavLink>
-          ))}
-        </nav>
+        <div className="flex items-center gap-4">
+          <nav className="hidden items-center gap-2 md:flex">
+            {links.map((link) => (
+              <NavLink
+                key={link.to}
+                to={link.to}
+                end={link.to === '/'}
+                className={navLinkClassName}
+              >
+                {link.label}
+              </NavLink>
+            ))}
+          </nav>
+
+          {/* Enhancement 3: Access point for authentication */}
+          <NavLink 
+            to="/auth/signin" 
+            className="rounded-full bg-zinc-900 px-6 py-2 text-sm font-bold text-white transition hover:bg-zinc-700"
+          >
+            GET STARTED
+          </NavLink>
+        </div>
       </div>
     </header>
   );
