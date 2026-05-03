@@ -1,6 +1,6 @@
 // src/pages/ArticleListPage.jsx
-import ArticleList from '../components/ArticleList';
-import articles from '../assets/article-content.js';
+import ArticleList from '../../components/ArticleList.jsx';
+import articles from '../../assets/article-content.js';
 
 const ArticleListPage = () => {
   return (

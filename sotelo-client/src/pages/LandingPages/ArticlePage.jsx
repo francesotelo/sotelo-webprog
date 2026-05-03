@@ -1,8 +1,8 @@
 // src/pages/ArticlePage.jsx
 import { useParams } from 'react-router-dom';
-import Button from '../components/Button';
-import articles from '../assets/article-content.js';
-import NotFoundPage from './NotFoundPage';
+import Button from '../../components/Button.jsx';
+import articles from '../../assets/article-content.js';
+import NotFoundPage from '../NotFoundPage.jsx';
 
 const ArticlePage = () => {
   const { name } = useParams();
