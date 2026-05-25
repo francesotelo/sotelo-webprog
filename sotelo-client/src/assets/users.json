@@ -1,0 +1,80 @@
+[
+  {
+    "firstName": "Taylor",
+    "lastName": "Swift",
+    "age": "34",
+    "gender": "female",
+    "contactNumber": "09171112222",
+    "email": "taylor@erastour.ph",
+    "role": "admin",
+    "username": "taylorswift",
+    "password": "Fearless13!",
+    "address": "BGC, Taguig City, Metro Manila",
+    "isActive": true
+  },
+  {
+    "firstName": "Ariana",
+    "lastName": "Grande",
+    "age": "30",
+    "gender": "female",
+    "contactNumber": "09182223333",
+    "email": "ariana@positions.ph",
+    "role": "editor",
+    "username": "arianagrande",
+    "password": "EternalSunshine1!",
+    "address": "Makati City, Metro Manila",
+    "isActive": true
+  },
+  {
+    "firstName": "Beyoncé",
+    "lastName": "Knowles",
+    "age": "42",
+    "gender": "female",
+    "contactNumber": "09193334444",
+    "email": "beyonce@renaissance.ph",
+    "role": "viewer",
+    "username": "beyonce",
+    "password": "TexasHoldEm99!",
+    "address": "Quezon City, Metro Manila",
+    "isActive": false
+  },
+  {
+    "firstName": "Lady",
+    "lastName": "Gaga",
+    "age": "38",
+    "gender": "female",
+    "contactNumber": "09204445555",
+    "email": "gaga@chromatica.ph",
+    "role": "editor",
+    "username": "ladygaga",
+    "password": "LittleMonster1!",
+    "address": "Pasig City, Metro Manila",
+    "isActive": true
+  },
+  {
+    "firstName": "Bruno",
+    "lastName": "Mars",
+    "age": "38",
+    "gender": "male",
+    "contactNumber": "09215556666",
+    "email": "bruno@hooligans.ph",
+    "role": "viewer",
+    "username": "brunomars",
+    "password": "24kMagic!!",
+    "address": "Ermita, Manila, Metro Manila",
+    "isActive": true
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Rodrigo",
+    "age": "21",
+    "gender": "female",
+    "contactNumber": "09226667777",
+    "email": "olivia@guts.ph",
+    "role": "editor",
+    "username": "oliviarodrigo",
+    "password": "Vampire2026!",
+    "address": "Alabang, Muntinlupa City",
+    "isActive": false
+  }
+]
